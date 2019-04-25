@@ -1,0 +1,9 @@
+# Visual Studio
+.vs/
+
+# Generated folders
+bin/
+obj/
+
+# SpecFlow
+TestResults/
