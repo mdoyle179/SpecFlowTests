@@ -12,5 +12,15 @@ namespace Example
         {
             return FirstNumber + SecondNumber;
         }
+
+        public int Multiply()
+        {
+            return FirstNumber * SecondNumber;
+        }
+
+        public int Subtract()
+        {
+            return FirstNumber - SecondNumber;
+        }
     }
 }
