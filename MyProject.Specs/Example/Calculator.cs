@@ -17,5 +17,10 @@ namespace Example
         {
             return FirstNumber * SecondNumber;
         }
+
+        public int Subtract()
+        {
+            return FirstNumber - SecondNumber;
+        }
     }
 }

@@ -15,3 +15,9 @@ Scenario: Multiply two numbers
 	And I have also entered 10 into the calculator
 	When I press multiply
 	Then the result should be 50 on the screen
+
+Scenario: Subtract two numbers
+	Given I have entered 10 into the calculator
+	And I have also entered 5 into the calculator
+	When I press subtract
+	Then the result should be 5 on the screen
